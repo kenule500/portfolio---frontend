@@ -38,9 +38,11 @@
           </div>
         </div>
 
-        <p class="text-[25px] mt-6 group-hover:underline">
-          {{ project.name }}
-        </p>
+        <a :href="project.link" target="_blank" rel="noopener noreferrer"
+          ><p class="text-[25px] mt-6 group-hover:underline">
+            {{ project.name }}
+          </p></a
+        >
       </div>
     </div>
   </div>
